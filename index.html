@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="style.css" rel="stylesheet">
+<body>
+    <div id="container">
+    <h1>Guess The Number</h1>
+    <h2>Important Rules</h2>
+    <p>Enter The Number Between 1 to 100</p><br>
+    <input type="number" min="0" max="100" id="value">
+    <button id="submit" onclick="submit()">Submit</button>
+    <br>
+    <br><br><br><br><br>
+    <p> Attempts Remaining to guess the correct number:</p><input type="number" id="attempts" value="10" readonly min=1><br><br>
+    <p id="result"></p>
+    </div>
+</body>
+<script src="main.js">
+</script>
+</html>
